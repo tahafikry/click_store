@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="CSS/img/favicon.ico">
+    <title>Click Store Online shopping</title>
+
+    <link rel="stylesheet" href="Css2/style.css">
+
+    <link rel="icon" href="img/trolley-cart (1).png">
+    <style>
+        /* body{
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+} */
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="modalForm">
+            <div class="actionBtns">
+                <button class="actionBtn signupBtn">Singup</button>
+                <button class="actionBtn loginBtn">Login</button>
+                <button class="moveBtn">Singup</button>
+            </div>
+            <div class="userForm">
+                <form action="T.html" class="form singup singupForm" id="form">
+                    <h1>Registration</h1>
+                    <div class="inputGroup">
+
+                        <input id="username" placeholder="Username" name="username" type="text" required>
+                        <div class="error"></div>
+                    </div>
+                    <div class="inputGroup">
+
+                        <input id="email" placeholder="email" name="email" type="text" required>
+                        <div class="error"></div>
+                    </div>
+                    <div class="inputGroup">
+
+                        <input id="password" placeholder="password" name="password" type="password" required>
+                        <div class="error"></div>
+                    </div>
+                    <div class="inputGroup">
+
+                        <input id="password2" placeholder="Password again" name="password2" type="password" required>
+                        <div class="error"></div>
+                    </div>
+                    <button action="T.html" name="submit" class="submitBtn" id="rgstr_btn" value="Register"
+                        onclick="store()">Singup</button>
+                    <!-- <input action="T.html" class="submitBtn" id="rgstr_btn" type="submit" value="Register" onclick="store()"> -->
+                </form>
+
+                <form action="shop.html" class="form login" id='a'>
+                    <div class="inputGroup">
+                        <input type="email" placeholder="email" id="email" autocomplete="offf" required>
+                    </div>
+                    <div class="inputGroup">
+                        <input type="password" placeholder=" password" id="password" autocomplete="offf" required>
+                    </div>
+                    <div id="remember">
+                        <input type="checkbox" value="lsRememberMe" id="rememberMe" style="display: inline-block;">
+                        <label>Remember me</label>
+                    </div>
+                    <input class="submitBtn" id="login_btn" type="submit" value="Login" onclick="check()">
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="JS/js2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5),url(img/blog2.jfif));
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 80%;
+    height: 20px solid #fff;
+    font-family:  sans-serif;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+
+}
+.blog{
+    margin-bottom: 20px;
+}
+.date{
+    color: #52748b;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+.p_blog{
+    border-left: 6px solid #52748b;
+    padding-left: 6px;
+    font-size: 18px;
+    
+    
+}
+h1{
+    color: #22455c;
+}
+h2{
+    font-size: 2.0rem;
+    color: #22455c;
+}
+h5{
+    font-size: 24px;
+    color: #36566b;
+}
+h6{
+    font-size: 1.7rem;
+    color: #42708f;
+}
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+
+}
+p{
+    color: rgb(123, 163, 189);
+    font-weight: 600;
+
+}

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/about.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="icon" type="image/x-icon" href="CSS/img/favicon.ico">
+    <title>Click Store Online shopping</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, sans-serif;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 700px;
+            position: relative;
+            margin: auto;
+        }
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active {
+            background-color: #ca4036;
+        }
+
+        /* Fading animation */
+        .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+            .text {
+                font-size: 11px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="CSS/img/logo.png" alt="" class="logo" width="100" height="100"></a>
+        <div>
+            <ul id="navbar">
+                <li> <a href="Home.html">Home</a></li>
+                <li> <a href="shop.html">Shop</a></li>
+                <li> <a href="blog.html">blog</a></li>
+                <li> <a class="active2" href="ba.html">about</a></li>
+                <li> <a href="ba.html">contact</a></li>
+                <ul class="nav navbar-nav ml-auto">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="fas fa-user"></span> Sign Up</a>
+                    </li> -->
+                    <li class="nav-item" style="visibility: hidden;">
+                        <a class="nav-link" href="regestration.html"><span class="fas fa-sign-in-alt"></span> Login</a>
+                    </li>
+                </ul>
+
+                <li> <a href="#"><i class="fa-solid fa-bag-shopping" id="cart-icon"
+                            style="  visibility: hidden;"></i></a></li>
+
+            </ul>
+
+        </div>
+    </section>
+    <section id="page-header" class="about-header">
+        <h1>Click Store</h1>
+        <h2>
+            Click Store offers
+            <span class="auto-input"></span>
+        </h2>
+
+    </section>
+
+    <section id="about-head" class="section-p1">
+        <img src="CSS/img/about/intro.svg" alt="">
+        <div>
+            <h2>Who We are ?</h2>
+            <p class="who-we-are-para">
+                By <span style="color: brown;">Cick Store</span> Everything you are looking for is available in our
+                models, enjoy our
+                discounts and offers
+                You can either register and complete an online shopping profile, or shop as a guest. When checking out
+                as a guest, you will need to provide personal
+                details and a
+                delivery address in order to complete the transaction. Clicks will not store this information, unless
+                you explicitly
+                request that we do so.</p>
+        </div>
+    </section>
+
+    <section id="about-app" class="section-p1">
+        <h1>Download Our <a href="#">App</a></h1>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="CSS/img/about/thumbnail.png" style="width:100%">
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="CSS/img/about/images.jpeg" style="width:100%">
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="CSS/img/about/F11173EF-9769-4152-849C-5F35E5BEFF87-1-2-900x675.png" style="width:100%">
+
+            </div>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="CSS/img/features/f1.png" alt="">
+            <h6>Free shipping</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="CSS/img/features/f2.png" alt="">
+            <h6>Online order</h6>
+        </div>
+
+
+        <div class="fe-box">
+            <img src="CSS/img/features/f3.png" alt="">
+            <h6>Save Money</h6>
+        </div>
+
+
+        <div class="fe-box">
+            <img src="CSS/img/features/f4.png" alt="">
+            <h6>Promotion</h6>
+        </div>
+
+
+        <div class="fe-box">
+            <img src="CSS/img/features/f5.png" alt="">
+            <h6>Happy Sell</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="CSS/img/features/f6.png" alt="">
+            <h6>24/7 Support</h6>
+        </div>
+
+
+
+    </section>
+
+
+
+    <!--
+        Copy from othman
+    -->
+
+    <section id="banner" class="section-m1">
+        <h4>Repair Services</h4>
+        <h2>Up to<span> 70% off!</span> - All T-Shirts & Accessories</h2>
+        <button class="normal"> Explore more</button>
+    </section>
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>crazy deals</h4>
+            <h2>Buy 2 Get 2 free</h2>
+            <span>the best classic Collection</span>
+            <button class="white">learn more</button>
+        </div>
+        <div class="banner-box banner-box2">
+            <h4>Spring/Summer</h4>
+            <h2>Up Comming Season</h2>
+            <span>the best classic Collection</span>
+            <button class="white">Collection</button>
+        </div>
+    </section>
+    <section id="banner3">
+        <div class="banner-box ">
+            <h2>Season Sale</h2>
+            <h3>Winter Collection -50% OFF</h3>
+        </div>
+        <div class="banner-box banner-box2">
+            <h2>NEW FOOTWEAR COLLECTION</h2>
+            <h3>Spring / Summer 2023</h3>
+        </div>
+        <div class="banner-box banner-box3">
+            <h2>T-SHERTS</h2>
+            <h3>NEW Terndy</h3>
+        </div>
+
+    </section>
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up to Newsletter</h4>
+            <p>
+                Get E-mail Updates about our latest shop <span> special offers</span> </p>
+        </div>
+        <div class="from">
+            <input type="text" placeholder="Your email addres">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="section-p1">
+        <div class="col">
+
+            <h4>Contant</h4>
+            <p><strong>Addres:</strong>ITI Minia Egypt</p>
+            <p><strong>Phone:</strong>+20 0102113984 </p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="about.html">About Us</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="regestration.html">Sign In</a>
+            <a href="#">Help</a>
+
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App store or Googel play</p>
+            <div class="row">
+                <img src="CSS/img/about/app.jpg" alt="">
+                <img src="CSS/img/about/play.jpg" alt="">
+            </div>
+            <p>secured Payment GeteWays </p>
+            <img src="SCC/img/about/pay.png" alt="">
+        </div>
+
+
+    </footer>
+    <!--
+        end 
+    -->
+
+    <script src="JS/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["The latest fads", "cute and unique products that are incredibly available",
+                "Everything you are looking for"], typeSpeed: 100,
+            loop: true,
+            backSpeed: 20
+
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/4254bc291f.js" crossorigin="anonymous"></script>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+
+    <script>
+        function myFunction() {
+            document.getElementById("carContent").innerHTML = "";
+            alert('Thanks for visiting us , Your Order is placed')
+            window.location.reload();
+
+
+        }
+    </script>
+
+
+    <script>
+
+        window.onload = function () {
+            checkFlag();
+        };
+
+        function checkFlag() {
+
+            if (localStorage.getItem('flag') === 'true') {
+                document.getElementById("cart-icon").style.visibility = "visible";
+                document.getElementById("loginIcone").style.visibility = "hidden";
+            }
+            else {
+                document.getElementById("cart-icon").style.visibility = "hidden";
+                document.getElementById("loginIcone").style.visibility = "visible";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
